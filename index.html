@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2801 Ridley Ave Tour</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-white shadow p-6 text-center">
+        <h1 class="text-3xl font-bold">2801 Ridley Ave</h1>
+        <p class="text-gray-600">Youngstown, OH 44505</p>
+        <span class="inline-block bg-green-500 text-white px-3 py-1 rounded-full mt-2">Cash As-Is Opportunity</span>
+    </header>
+
+    <main class="container mx-auto mt-8 p-4">
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4">Property Walkthrough</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Photo Placeholders -->
+                <div class="bg-gray-300 h-64 flex items-center justify-center rounded shadow">Exterior Photo</div>
+                <div class="bg-gray-300 h-64 flex items-center justify-center rounded shadow">Living Room Photo</div>
+                <div class="bg-gray-300 h-64 flex items-center justify-center rounded shadow">Kitchen Photo</div>
+                <div class="bg-gray-300 h-64 flex items-center justify-center rounded shadow">Bedroom 1 Photo</div>
+                <div class="bg-gray-300 h-64 flex items-center justify-center rounded shadow">Bathroom Photo</div>
+                <div class="bg-gray-300 h-64 flex items-center justify-center rounded shadow">Basement & Wine Cellar Photo</div>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 rounded shadow mt-8">
+            <h2 class="text-2xl font-semibold mb-4">Contact for Inquiries</h2>
+            <form action="mailto:lifespurpose18@gmail.com" method="POST" enctype="text/plain" class="space-y-4">
+                <div>
+                    <label class="block mb-1">Name</label>
+                    <input type="text" name="Name" class="w-full border rounded p-2" required>
+                </div>
+                <div>
+                    <label class="block mb-1">Email</label>
+                    <input type="email" name="Email" class="w-full border rounded p-2" required>
+                </div>
+                <div>
+                    <label class="block mb-1">Message</label>
+                    <textarea name="Message" class="w-full border rounded p-2" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">Send Email</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
